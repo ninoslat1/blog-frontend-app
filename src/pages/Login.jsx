@@ -33,7 +33,7 @@ export default function Login() {
   return (
     <div className="h-[calc(100vh_-_50px)] flex flex-col items-center justify-center bg-white px-5 lg:px-0">
       <ToastContainer position="top-right" autoClose={1000} hideProgressBar={false} newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover theme="light"/>
-      <div className="card w-full lg:w-[25vw] h-2/3 lg:h-1/2 shadow-xl p-10 bg-blue-500">
+      <div className="card w-full lg:w-[25vw] h-2/3 shadow-xl p-10 bg-blue-500">
         <span className="text-5xl font-bold font-rb text-center">Login</span>
         <form className="flex flex-col mt-5" onSubmit={handleSubmit}>
           <label className="mx-0 my-2.5 font-rb">Username</label>

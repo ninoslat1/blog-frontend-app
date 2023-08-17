@@ -26,7 +26,7 @@ export default function Register() {
         password,
         email
       }) 
-      response.data && window.location.replace("/login")
+      response.data && window.location.replace("/")
     } catch (error){
         setError(true)
         toast(<Msg />)
